@@ -14,8 +14,9 @@ body {
 }
 
 .giant-arrow {
+    margin-bottom: 170px;
     color: #900c00;
-    font-size: 80px;
+    font-size: 40px;
 }
 
 .giant-arrow:hover{
@@ -44,14 +45,14 @@ a.active {
 }
 
 a {
-    color: #f5cfcc;
+    color: #900c00;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #f5cfcc;
+    color: #900c00;
 }
 
 h1,
@@ -147,6 +148,9 @@ fieldset[disabled] .btn-primary.active {
 }
 .font-light-grey {
     color: #f7f7f7;
+}
+.font-transparent{
+    color: transparent;
 }
 
 .btn-primary .badge {
@@ -248,22 +252,30 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
 }
 
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover
+{
     outline: 0;
-    color: #900c00;
+    border-bottom: thick solid white;
+    color: white;
+}
+
+.navbar-default .nav li a:focus
+{
+    color: white;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #900c00;
+    color: white;
+    border-bottom: thick solid white;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #f5cfcc;
+    color: white;
+    border-bottom: thick solid white;
+    background-color: transparent;
 }
 
 @media(min-width:768px) {
@@ -277,7 +289,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 0em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -289,7 +301,10 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-image: url(../img/navbar.jpg);
+        -webkit-box-shadow: 0 8px 6px -6px #999;
+        -moz-box-shadow: 0 8px 6px -6px #999;
+        box-shadow: 0 8px 6px -6px #999;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -298,10 +313,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/IMG_4746.JPG);
+    background-image: url(../img/IMG_4737.JPG);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -333,7 +347,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 250px;
         padding-bottom: 200px;
     }
 
@@ -346,11 +360,11 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         text-transform: uppercase;
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
+        font-size: 65px;
+        font-weight: 400;
         line-height: 75px;
     }
 }
@@ -369,6 +383,17 @@ header .intro-text .intro-heading {
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
+}
+
+.second-section-heading {
+    width: 750px;
+    border-top: 3px solid #fff;
+}
+
+.image-border
+{
+    border-width: 5px;
+    border-color: Black;
 }
 
 section {
@@ -418,7 +443,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: #900c00;
+    background: transparent;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -436,7 +461,7 @@ section h3.section-subheading {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: black;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -703,14 +728,13 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-color: white;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+
 }
 
 section#contact .form-group {
@@ -922,7 +946,7 @@ body {
 }
 
 .quality-background{
-    background-image: url(../img/IMG_4737.JPG);
+    background-image: url(../img/IMG_4746.JPG);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
