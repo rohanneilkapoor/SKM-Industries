@@ -55,14 +55,16 @@ a.active {
     color: #900c00;
 }
 
-h1,
-h2,
-h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .img-centered {
@@ -98,7 +100,7 @@ h6 {
 .btn-primary {
     border-color: #900c00;
     text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #900c00;
@@ -166,7 +168,7 @@ fieldset[disabled] .btn-primary.active {
     padding: 20px 40px;
     border-color: #900c00;
     border-radius: 3px;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -219,7 +221,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #900c00;
 }
 
@@ -250,7 +252,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -335,7 +337,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -343,7 +345,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -357,7 +359,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -366,9 +368,9 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 20px;
         text-transform: uppercase;
-        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 65px;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 75px;
     }
 }
@@ -378,10 +380,6 @@ header .intro-text .intro-heading {
     padding: 50px 0;
 }
 
-.lead {
-    font-size: 18px;
-    font-weight: 400;
-}
 
 .section-heading-spacer {
     float: left;
@@ -413,16 +411,10 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-}
-
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
 }
 
 .service-heading {
@@ -478,7 +470,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
-    padding: 90px;
+    padding: 70px;
     max-width: 400px;
     text-align: center;
     background-color: transparent;
@@ -492,7 +484,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -764,27 +756,27 @@ section#contact .form-control:focus {
 }
 
 section#contact::-webkit-input-placeholder {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -800,7 +792,7 @@ footer {
 
 footer span.copyright {
     text-transform: none;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -808,7 +800,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -845,7 +837,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 75px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -866,7 +858,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -882,10 +874,10 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .close-modal {
     position: absolute;
-    top: 25px;
+    top: 10px;
     right: 25px;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     background-color: transparent;
     cursor: pointer;
 }
@@ -897,9 +889,9 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 50px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: white;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -908,8 +900,8 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
-    height: 75px;
-    background-color: #222;
+    height: 50px;
+    background-color: white;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -959,7 +951,23 @@ body {
     -o-background-size: cover;
 }
 
-.military{
-    background-image: url(../img/portfolio/military1dark.JPG);
-    width: 300px;
+.customerCarSize img {
+    width: auto;
+    height: 600px;
+    max-height: 600px;
+    margin: 0 auto;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%; /* pushes the icon in the middle of the height */
+    z-index: 5;
+    display: inline-block;
+}
+
+.carousel-indicators {
+    bottom:-5px;
 }
