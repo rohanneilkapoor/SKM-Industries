@@ -48,12 +48,12 @@ h5,
 h6 {
     padding: 0;
     margin-bottom: 12px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
     font-size: 14px;
     line-height: 26px;
     letter-spacing: 1px;
-    color: #666;
+    color: black;
     margin-top: 10px;
 }
 
@@ -590,3 +590,5 @@ body {
 .carousel-indicators {
     bottom:-5px;
 }
+
+
