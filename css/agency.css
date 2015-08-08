@@ -568,6 +568,18 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-attachment: fixed;
+}
+
+.capabilities-background{
+    background: linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6) ), url(../img/machine.JPG);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
 }
 
 .customerCarSize img {
@@ -590,5 +602,7 @@ body {
 .carousel-indicators {
     bottom:-5px;
 }
+
+
 
 
