@@ -14,13 +14,11 @@ body {
 }
 
 .giant-arrow {
-    margin-bottom: 170px;
-    color: #900c00;
-    font-size: 40px;
+    stroke: #900c00;
 }
 
-.giant-arrow:hover{
-    color: #fff;
+.giant-arrow:hover svg path {
+    stroke: white;
 }
 
 a,
@@ -33,6 +31,7 @@ a.active {
 
 a {
     color: #900c00;
+
 }
 
 a:hover,
@@ -127,16 +126,23 @@ h3 {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     letter-spacing: 1px;
     color: #fff;
+}
+
+.navbar-nav>li>a{
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 
 .navbar-default .nav li a:hover
 {
     outline: 0;
-    text-decoration: underline;
     color: white;
+    margin-bottom:1px;
+    border-bottom: 4px solid;
+    border-bottom-color: white;
 }
 
 .navbar-default .nav li a:focus
@@ -147,14 +153,14 @@ h3 {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: white;
-    text-decoration: underline;
+    border-bottom: 4px solid;
+    border-bottom-color: #900c00;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: white;
-    text-decoration: underline;
     background-color: transparent;
 }
 
@@ -181,7 +187,7 @@ h3 {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-image: url(../img/navbar.jpg);
+        background: linear-gradient( rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) ), url(../img/navbar.jpg);
         -webkit-box-shadow: 0 8px 6px -6px #999;
         -moz-box-shadow: 0 8px 6px -6px #999;
         box-shadow: 0 8px 6px -6px #999;
@@ -604,11 +610,20 @@ body {
 }
 
 #caplist h6:hover{
-    font-weight: 200;
+    font-weight: 500;
 }
 
 .font-100{
     font-weight: 100;
+}
+
+.overlay {
+    background:transparent;
+    position:relative;
+    width:700px;
+    height:400px;
+    top:400px;
+    margin-top:-400px;
 }
 
 
