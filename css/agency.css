@@ -12,6 +12,9 @@ body {
 .text-muted {
     color: #777;
 }
+.text-muted-2 {
+    color: #adadad;
+}
 
 .giant-arrow {
     stroke: #900c00;
@@ -262,9 +265,9 @@ header .intro-text .intro-heading {
 
 
 .section-heading-spacer {
-    float: left;
+    display: inline-block
     width: 200px;
-    border-top: 3px solid #e7e7e7;
+    border-top: 2px solid #e7e7e7;
 }
 
 .image-border
@@ -611,6 +614,7 @@ body {
 
 #caplist h6:hover{
     font-weight: 500;
+    color: white;
 }
 
 .font-100{
@@ -624,6 +628,13 @@ body {
     height:400px;
     top:400px;
     margin-top:-400px;
+}
+
+.flex-center-vertically {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
 }
 
 
