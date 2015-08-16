@@ -65,6 +65,14 @@ h3 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.bg-gray{
+    background-color: #3e3e3e;
+}
+
+.bg-black{
+    background-color: black;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -205,6 +213,8 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/IMG_4737.JPG);
+    height: 100%;
+    width: 100%;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -571,6 +581,7 @@ body {
 
 .quality-background{
     background: linear-gradient( rgba(0, 0, 0, .3), rgba(0, 0, 0, .3) ), url(../img/IMG_4746.JPG);
+    width: 100%;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -582,6 +593,7 @@ body {
 
 .capabilities-background{
     background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(../img/machine2.JPG);
+    width: 100%;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -635,6 +647,14 @@ body {
     justify-content: center;
     flex-direction: column;
     height: 250px;
+}
+.fit2 {
+    max-width: 100%;
+    max-height: 100%;
+}
+.center2 {
+    display: block;
+    margin: auto;
 }
 
 
