@@ -1,2 +1,2 @@
 # SKM-Industries
-SKM Industries website at skmindustries.com
+Site at http://www.skmindustries.com/
