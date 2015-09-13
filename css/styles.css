@@ -620,7 +620,7 @@ body {
 }
 
 .capabilities-background{
-    background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(../img/machine2.JPG);
+    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7) ), url(../img/machine2.JPG);
     width: 100%;
     background-position: center center;
     background-repeat: none;
@@ -670,12 +670,6 @@ body {
     margin-top:-400px;
 }
 
-.flex-center-vertically {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 250px;
-}
 .fit2 {
     max-width: 100%;
     max-height: 100%;
@@ -684,6 +678,51 @@ body {
     display: block;
     margin: auto;
 }
+
+
+/* Main toggle */
+.toggle {
+    background: transparent; /* Main background */
+    margin-bottom: 10px;
+    border: 2px solid #a9a9a9;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* Toggle Link text */
+.toggle a.toggle-trigger {
+    display:block;
+    padding: 10px 20px 15px 20px;
+    position:relative;
+    text-decoration: none;
+    color: #666;
+}
+
+/* Toggle Link hover state */
+.toggle a.toggle-trigger:hover {
+    opacity: .8;
+    text-decoration: none;
+}
+
+/* Toggle link when clicked */
+.toggle a.active {
+    text-decoration: none;
+    border-bottom: 2px solid #a9a9a9;
+    -webkit-box-shadow: 0 8px 6px -6px #a9a9a9;
+    -moz-box-shadow: 0 8px 6px -6px #a9a9a9;
+    box-shadow: 0 8px 6px -6px #a9a9a9;
+    color: #000;
+}
+
+
+/* The content of the toggle */
+.toggle .toggle-content {
+    padding: 10px 20px 15px 20px;
+    color:#666;
+}
+
+
 
 
 
