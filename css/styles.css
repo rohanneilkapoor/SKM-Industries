@@ -3,6 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800,100,200,600);
 
 body {
     overflow-x: hidden;
@@ -238,16 +239,20 @@ h3 {
 
 header {
     color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/IMG_4737.JPG);
-    height: 100%;
-    width: 100%;
-    background-position: center center;
-    background-repeat: none;
+}
+
+
+
+#home {
+    background: url(../img/IMG_4737.JPG);
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
 }
 
 header .intro-text {
@@ -273,7 +278,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:1px) {
     header .intro-text {
-        padding-top: 250px;
+        padding-top: 300px;
         padding-bottom: 200px;
     }
 
@@ -288,10 +293,11 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 20px;
         text-transform: uppercase;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Raleway", sans-serif;
         font-size: 65px;
-        font-weight: 300;
-        line-height: 75px;
+        font-size: 5vw;
+        font-weight: 600;
+        line-height: 150%;
     }
 }
 
@@ -619,6 +625,18 @@ body {
     background-attachment: fixed;
 }
 
+.contact-background{
+    background: linear-gradient( rgba(0, 0, 0, .3), rgba(0, 0, 0, .3) ), url(../img/IMG_4737.JPG);
+    width: 100%;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}
+
 .capabilities-background{
     background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7) ), url(../img/machine2.JPG);
     width: 100%;
@@ -721,6 +739,36 @@ body {
     padding: 10px 20px 15px 20px;
     color:#666;
 }
+
+.intro {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    padding: 0 15px;
+}
+
+.contact{
+    color: #999999;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+
+.contact:hover{
+    color: black;
+    border-bottom: 4px solid;
+    border-bottom-color: #900c00;
+}
+
 
 
 
