@@ -3,7 +3,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -226,7 +226,9 @@ h3 {
         -webkit-box-shadow: 0 8px 6px -6px #999;
         -moz-box-shadow: 0 8px 6px -6px #999;
         box-shadow: 0 8px 6px -6px #999;
+
     }
+
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
@@ -251,10 +253,6 @@ header {
     padding: 0;
 }
 
-header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
@@ -274,7 +272,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:1px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 250px;
         padding-bottom: 200px;
     }
 
@@ -765,6 +763,15 @@ body {
     border-bottom-color: #900c00;
 }
 
+#dvid{
+    padding: 5px !important;
+    background-color: #008490 !important;
+    color: white !important;
+}
+
+#othdiv{
+
+}
 
 
 

@@ -22,6 +22,19 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 
+$(document).ready(function() {
+    $("#dvid").hide(); //hide your div initially
+    var topOfOthDiv = $("#othdiv").offset().top;
+    $(window).scroll(function() {
+        if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
+            $("#dvid").show(400); //reached the desired point -- show div
+        }
+        if($(window).scrollTop() < topOfOthDiv) { //scrolled past the other div?
+            $("#dvid").hide(100); //reached the desired point -- show div
+        }
+    });
+});
+
 
 (function($){
 // Find the toggles and hide their content
