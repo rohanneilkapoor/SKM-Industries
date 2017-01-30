@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>SKM Industries Inc.</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -19,9 +19,23 @@
     <script src="wow.min.js"></script>
 
     <script src="skm.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-89923182-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 
 
 </head>
+
+<body>
+
+
 <nav class="navbar navbar-custom navbar-fixed-top opaque-navbar" role="navigation">
 
     <div class="container">
@@ -36,32 +50,28 @@
             <a class="real-div navbar-brand navbar-link" href="index.html" style="padding-bottom: 7px !important; padding-top: 7px !important; margin-left: 0 !important;"><img class="logo"src="images/official_logo.gif" style="height: 100%"></a>
         </div>
 
-            <div class="collapse navbar-collapse" id="custom-collapse">
-                <ul class="nav navbar-nav navbar-right navbar-logo" style = " padding-left: 20px !important; display: inline-block !important; float: none !important; vertical-align: top !important;">
-                    <li><a class="real-div navbar-link" href="#portfolioModal7" data-toggle="modal">Portfolio</a></li>
-                    <li><a class="real-div navbar-link" href="#portfolioModal6" data-toggle="modal">Capabilities</a></li>
-                    <li class="hide-this"><a class="real-div navbar-link" href="#contact-us">Contact</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right real-div change">
-                    <li class="get-a-quote" style="margin-top: 5px;">
-                        <!--<a class="get-a-quote-nav" style="padding-bottom: 9px !important; margin-top: 6px !important;">Get a quote</a>-->
-                        <button onclick="window.location.href='#contact-us'"> Contact</button>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right navbar-logo" style = " padding-left: 20px !important; display: inline-block !important; float: none !important; vertical-align: top !important;">
+                <li><a class="real-div navbar-link" href="#portfolioModal7" data-toggle="modal">Portfolio</a></li>
+                <li><a class="real-div navbar-link" href="#portfolioModal6" data-toggle="modal">Capabilities</a></li>
+                <li class="hide-this"><a class="real-div navbar-link" href="#contact-us">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right real-div change">
+                <li class="get-a-quote" style="margin-top: 5px;">
+                    <!--<a class="get-a-quote-nav" style="padding-bottom: 9px !important; margin-top: 6px !important;">Get a quote</a>-->
+                    <button onclick="window.location.href='#contact-us'"> Contact</button>
+                </li>
+            </ul>
+        </div>
 
     </div><!-- .container -->
 
 </nav>
-<body>
 
 
 
 
-
-
-
-    <div id="home">
+    <div id="home" style="position: relative;" class="wow fadeIn" data-wow-duration="1.5s">
         <!--<div class="container">
                 <div class="row">
                     <div class="col-lg-offset-6 col-lg-6 col-md-offset-7 col-md-5">
@@ -78,19 +88,23 @@
                 </div>
         </div>-->
         <div class="element-2 page">
-            <div class="wow fadeIn front-page-title" data-wow-duration="1.5s" style="color: white; padding-bottom:10px;">
-                Quality CNC Machining</div>
+            <div class=" front-page-title" style="color: white; padding-bottom:10px;">
+                Advanced CNC Machining</div>
             <!--<div class="wow fadeIn front-page-title" data-wow-duration="1.5s" style="font-size: 16px;">
                 Production. Short Runs. Assemblies.</div>-->
-            <div class="title-sub-header" style="padding-bottom: 25px; color: white !important;">PRODUCTION. SHORT RUNS. ASSEMBLIES.</div>
+            <div class="title-sub-header top-sub" style="padding-bottom: 25px; color: white !important;">PRODUCTION. SHORT RUNS. ASSEMBLIES.</div>
             <div>
-                    <div class="wow fadeInUp button-align get-a-quote">
-                        <button class="page-scroll" onclick="window.location.href='#contact-us'"> Get a quote </button>
+                    <div class="button-align get-a-quote">
+                        <button class="page-scroll" onclick="window.location.href='#contact-us'"> Contact</button>
 
                     </div>
             </div>
             <div style="height: 25px;"></div>
         </div>
+        <div class="text location"  style="color: #dedfe1 !important;">
+            Located in Valencia, CA
+        </div>
+
 
     </div>
 
@@ -127,7 +141,7 @@
                 <div class="col-md-5" >
                     <div class="industry-section-margins">
                         <div class="hline"></div>
-                        <div class="body-header">An Industry Reputation</div>
+                        <div class="body-header">A Strong Industry Reputation</div>
                         <div class="text-block text">
                             Since our establishment in 1992, SKM Industries
                             has built a strong industry reputation for
@@ -141,12 +155,12 @@
                         <figure class="snip1533">
                             <figcaption>
                                 <blockquote>
-                                    <div class="text-2">SKM Industries is the factory I want all my parts in.
-                                        Most shop owners say "I want to do things like this." Well at SKM,
-                                        they are already doing everything like that.</div>
+                                    <div class="text-2">I know we can always rely on SKM Industries for high quality work
+                                        delivered on time. We really do appreciate all the hard work.
+                                        </div>
                                 </blockquote>
-                                <div class="testimonial-person">Andy Hochman</div>
-                                <div class="testimonial-person" style="color: #acb4bd;">HAAS Automation</div>
+                                <div class="testimonial-person">Steven Inlow</div>
+                                <!--<div class="testimonial-person" style="color: #acb4bd;">HAAS Automation</div>-->
 
                             </figcaption>
                         </figure>
@@ -158,18 +172,17 @@
                                         work. We look forward to sending in more orders.</div>
                                 </blockquote>
                                 <div class="testimonial-person">Kevin McDevitt</div>
-                                <div class="testimonial-person" style="color: #acb4bd;">Prototype & Short Run Services </div>
+                                <!--<div class="testimonial-person" style="color: #acb4bd;">Prototype & Short Run Services </div>-->
                             </figcaption>
                         </figure>
                         <figure class="snip1533">
                             <figcaption>
                                 <blockquote>
-                                    <div class="text-2">We really appreciate all the hard work
-                                        the SKM team does to ensure we have parts when needed.
-                                        They are truly a valued supplier. </div>
+                                    <div class="text-2">Working with SKM Industries has been a terrific experience.
+                                    We were really impressed with the final result and are very thankful.</div>
                                 </blockquote>
-                                <div class="testimonial-person">Zechary Uribe</div>
-                                <div class="testimonial-person" style="color: #acb4bd;">HAAS Automation</div>
+                                <div class="testimonial-person">Michael Portnoy</div>
+                                <!--<div class="testimonial-person" style="color: #acb4bd;">HAAS Automation</div>-->
                             </figcaption>
                         </figure>
                     </div>
@@ -181,12 +194,11 @@
                         <figure class="snip1533">
                             <figcaption>
                                 <blockquote>
-                                    <div class="text-2">SKM Industries is the factory I want all my parts in.
-                                        Most shop owners say "I want to do things like this." Well at SKM,
-                                        they are already doing everything like that.</div>
+                                    <div class="text-2">I know we can always rely on SKM Industries for high quality work
+                                        delivered on time. We really do appreciate all the hard work.</div>
                                 </blockquote>
-                                <div class="testimonial-person">Andy Hochman</div>
-                                <div class="testimonial-person" style="color: #acb4bd;">HAAS Automation</div>
+                                <div class="testimonial-person">Steven Inlow</div>
+                                <!--<div class="testimonial-person" style="color: #acb4bd;">HAAS Automation</div>-->
 
                             </figcaption>
                         </figure>
@@ -198,18 +210,17 @@
                                         work. We look forward to sending in more orders.</div>
                                 </blockquote>
                                 <div class="testimonial-person">Kevin McDevitt</div>
-                                <div class="testimonial-person" style="color: #acb4bd;">Prototype & Short Run Services </div>
+                                <!--<div class="testimonial-person" style="color: #acb4bd;">Prototype & Short Run Services </div>-->
                             </figcaption>
                         </figure>
                         <figure class="snip1533">
                             <figcaption>
                                 <blockquote>
-                                    <div class="text-2">We really appreciate all the hard work
-                                        the SKM team does to insure we have parts when needed.
-                                        They are truly a valued supplier. </div>
+                                    <div class="text-2">Working with SKM Industries has been a terrific experience.
+                                        We were really impressed with the final result and are very thankful. </div>
                                 </blockquote>
-                                <div class="testimonial-person">Zechary Uribe</div>
-                                <div class="testimonial-person" style="color: #acb4bd;">HAAS Automation</div>
+                                <div class="testimonial-person">Michael Portnoy</div>
+                                <!--<div class="testimonial-person" style="color: #acb4bd;">HAAS Automation</div>-->
                             </figcaption>
                         </figure>
                     </div>
@@ -220,8 +231,8 @@
         </div>
     </section>
     <section class="logo-section">
-        <div class="clients" style="background-color: black;" onclick="location.href='http://www.3dsystems.com/';" >
-            <span></span><img class="threeD-logo" src="images/3d-systems-vertical-logo.png" alt="logo" />
+        <div class="clients" style="background-color: #0064a4;" onclick="location.href='https://uci.edu/';">
+            <span></span><img class="uci-logo" src="images/uci.png" alt="logo" />
         </div>
         <div class="clients" onclick="location.href='https://www.haascnc.com';">
             <span></span><img class="haas-logo" src="images/Haas_Automation_Logo.png" alt="logo" />
@@ -229,19 +240,29 @@
         <div class="clients" style="background-color: #76777B;" onclick="location.href='https://www.caltech.edu/';">
             <span></span><img class="caltech-logo" src="images/logo_school.png" alt="logo" />
         </div>
-        <div class="clients" style="background-color: #0064a4;" onclick="location.href='https://uci.edu/';">
-            <span></span><img class="uci-logo" src="images/uci.png" alt="logo" />
+        <div class="clients" style="background-color: black;" onclick="location.href='http://www.3dsystems.com/';" >
+            <span></span><img class="threeD-logo" src="images/3d-systems-vertical-logo.png" alt="logo" />
         </div>
 
     </section>
     <section>
         <div id="metal">
-            <div class="element">
-                <div style="text-align: center; color: white !important;" class="text ligo">In 2015, SKM Industries Inc.
+            <div class="ligo-box">
+                <div class="element">
+                    <div class="text gravity" style="color: #333 !important;">
+                        <div class="body-sub-header-homepage" style="padding-bottom: 10px;">GRAVITATIONAL WAVES</div>
+                        In 2015, SKM Industries Inc.
+                        was selected by Caltech to manufacture parts for LIGO and Advanced LIGO
+                        projects for the historic discovery of gravitational waves.
+                    </div>
+                </div>
+            </div>
+            <!--<div class="element">
+                <div style="text-align: center; color: white !important;" class="text ligo" >In 2015, SKM Industries Inc.
                     was selected by Caltech to manufacture parts for LIGO and Advanced LIGO
                     projects for detecting gravitational waves.
                 </div>
-            </div>
+            </div>-->
 
         </div>
     </section>
@@ -255,9 +276,7 @@
             </div>
         </div>
     </section>
-    <section id="ipad" >
-
-    </section>
+    <img src="images/ipad_connection.png" style="width: 105%; max-width: 2000px; min-width: 1300px; display: block; margin: 0 auto;">
 
     <section class="mid-section-margins">
         <div class="container">
@@ -344,7 +363,7 @@
                 <div class="col-md-5 ">
                     <div>
                         <div class="hline" style="background: white !important;"></div>
-                        <div class="body-header" style="color: white !important;">Numerous Industries</div>
+                        <div class="body-header" style="color: white !important;">Industries Served</div>
                         <div class="text-block text" style="color: white !important;">
                             SKM is committed to quality and excellence. We set the
                             highest standards for ourselves, enabling us to meet
@@ -412,25 +431,25 @@
     <div class="center-text-element" style="text-align: center;" class=" container">
         <div class="body-header-big machine-margins" style=" padding-bottom: 40px !important; color: #333 !important;">Contact Us Today</div>
         <div class="text">
-            To send in a drawing and request a quote, email us at
+            To request a quote, email us at
             <a href="mailto:sales@skmindustries.com"class="lato" style="color:#CD1201; text-transform: none; font-size: 16px; font-weight: 300; letter-spacing:1px;">sales@skmindustries.com</a>.
-            <br>To simply learn more, fill out the form below or call us.
+            To simply learn more, fill out the form below or call us.
         </div>
         <div class="text" style="padding-top: 50px;">
-            (661) 294-8373<br>
+            <span>(661)</span> <span>294-</span><span>8373</span><br>
             28966 North Hancock Parkway<br>
             Valencia, CA 91355
         </div>
-        <form id="form" class="topBefore" method="POST" action="http://formspree.io/rohanneilkapoor@gmail.com">
+        <form id="form" class="topBefore" method="POST" action="http://formspree.io/sanjeev@skmindustries.com">
             <div style="text-align: left;" class="testimonial-person">Name</div>
             <input id="name" type="text" name="name">
-            <div style="text-align: left; padding-top: 10px;" class="testimonial-person">Company</div>
-            <input id="company" type="text" name="company">
             <div style="text-align: left; padding-top: 10px;" class="testimonial-person">Email</div>
             <input id="email" type="text" name="_replyto">
+            <div style="text-align: left; padding-top: 10px;" class="testimonial-person">Company</div>
+            <input id="company" type="text" name="company">
             <div class="center-element" style="padding-top: 60px;">
                 <div class="get-a-quote center-element">
-                    <button type="submit">Send</button>
+                    <button type="submit">Submit</button>
                 </div>
             </div>
 
@@ -439,15 +458,17 @@
 </section>
     <footer style=" background-color: #f4fafd;">
         <div style="text-align: center; font-size: 14px; padding-bottom: 20px;" class="text">
-            Copyright © 2016 SKM Industries Inc.
+            Copyright © 2017 SKM Industries Inc.
         </div>
     </footer>
 
 
 
 
+
+</body>
 <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
+    <div class="modal-content" style="padding-bottom: 0 !important;" >
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
                 <div class="rl">
@@ -457,18 +478,18 @@
 
         <div class="container" style="padding-left: 10%; padding-right: 10%;">
             <div class="page-title" style="color: #333 !important; padding-top: 10px !important; padding-bottom: 30px !important;">Capabilities</div>
-                    <div class="text cap-text" style=" padding-bottom: 20px;">
-                        To ensure technological advancement,
-                        all equipment is upgraded on a
-                        regular basis, leaving nothing older
-                        than ten years. All equipment is networked
-                        to a central CAD/CAM system for efficient
-                        programming, using solid models or blueprints,
-                        and verified using 3-D rendering
-                        before machining. Continuous maintenance
-                        support from our CAD/CAM manufacturers
-                        provides automatic software upgrades.
-                    </div>
+            <div class="text cap-text" style=" padding-bottom: 20px;">
+                To ensure technological advancement,
+                all equipment is upgraded on a
+                regular basis, leaving nothing older
+                than ten years. All equipment is networked
+                to a central CAD/CAM system for efficient
+                programming, using solid models or blueprints,
+                and verified using 3-D rendering
+                before machining. Continuous maintenance
+                support from our CAD/CAM manufacturers
+                provides automatic software upgrades.
+            </div>
 
             <div class="hr-line"></div>
             <div class="row">
@@ -532,43 +553,49 @@
             </div>
 
             <div class="hr-line"></div>
-            <div class="hline" style="margin-top: 20px !important;"></div>
-            <div class="body-header" style="color: #333 !important; padding-bottom: 60px !important; ">Quality Control Management</div>
+        </div>
+        <div style="background-color: #f4fafd;">
+            <div class="container" style=" padding-left: 10%; padding-right: 10%; padding-top: 100px; padding-bottom: 100px;">
+                <div class="hline" style="margin-top: 20px !important;"></div>
+
+                <div class="body-header" style="color: #333 !important; padding-bottom: 60px !important; ">Quality Control Management</div>
 
 
-            <div class="body-sub-header-homepage" style="padding-bottom: 10px;">DOCUMENT CONTROL</div>
-            <div class="text cap-text" style="padding-bottom: 80px;">
-                Inspection travelers and prints, along with the necessary information,
-                are available through iPad portals at our production and quality stations
-                for machine operators and quality assurance personnel. Documents are
-                available live at all stations from our ERP Server, eliminating the need
-                for document control.
-            </div>
-
-            <div class="body-sub-header-homepage" style="padding-bottom: 10px;">PRODUCTION-RUN DIMENSION CONTROL</div>
-            <div class="text cap-text" style="padding-bottom: 80px;">
-                Production tolerances are always set from 60% to 70% of the
-                print tolerances to ensure the parts are as close to nominal dimensions
-                as possible throughout the whole production lot. Each part is inspected
-                by operators under 4-10X magnification as part of the manufacturing process.
-            </div>
-
-            <div class="body-sub-header-homepage" style="padding-bottom: 10px;">ADDITIONAL QUALITY ASSURANCE</div>
-            <div class="text cap-text">
-                Our routine quality assurance
-                process includes inspection of cosmetics, finishes, and packaging of
-                the parts. We can meet or exceed MIL-I-45208 system compliance.
-            </div>
-
-
-
-            <div class="center-element" style="margin-top: 75px;">
-                <div class="see-capabilities">
-                    <button href="#portfolioModal6" data-dismiss="modal">Back</button>
+                <div class="body-sub-header-homepage" style="padding-bottom: 10px;">DOCUMENT CONTROL</div>
+                <div class="text cap-text" style="padding-bottom: 80px;">
+                    Inspection travelers and prints, along with the necessary information,
+                    are available through iPad portals at our production and quality stations
+                    for machine operators and quality assurance personnel. Documents are
+                    available live at all stations from our ERP Server, eliminating the need
+                    for document control.
                 </div>
 
-            </div>
+                <div class="body-sub-header-homepage" style="padding-bottom: 10px;">PRODUCTION-RUN DIMENSION CONTROL</div>
+                <div class="text cap-text" style="padding-bottom: 80px;">
+                    Production tolerances are always set from 60% to 70% of the
+                    print tolerances to ensure the parts are as close to nominal dimensions
+                    as possible throughout the whole production lot. Each part is inspected
+                    by operators under 4-10X magnification as part of the manufacturing process.
+                </div>
 
+                <div class="body-sub-header-homepage" style="padding-bottom: 10px;">ADDITIONAL QUALITY ASSURANCE</div>
+                <div class="text cap-text">
+                    Our routine quality assurance
+                    process includes inspection of cosmetics, finishes, and packaging of
+                    the parts. We can meet or exceed MIL-I-45208 system compliance.
+                </div>
+
+
+
+                <div class="center-element" style="margin-top: 75px;">
+                    <div class="see-capabilities">
+                        <button href="#portfolioModal6" data-dismiss="modal">Back</button>
+                    </div>
+
+                </div>
+
+
+            </div>
         </div>
 
     </div>
@@ -711,6 +738,4 @@
 
     </div>
 </div>
-
-</body>
 </html>

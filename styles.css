@@ -76,10 +76,15 @@ html{
     height: 100%;
     margin: 0px;
     padding: 0px;
+
 }
 .fixed-html{
     overflow-x: hidden;
 }
+.fixed-html-y{
+    overflow-y: hidden;
+}
+
 body {
     font-family:"Lato",Helvetica,Arial,sans-serif !important;
     font-size: 16px;
@@ -88,7 +93,6 @@ body {
     padding-top: 80px;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: subpixel-antialiased !important;
-
 }
 
 
@@ -113,8 +117,8 @@ body {
     font-weight: 500;
 }
 .page{
-    margin-left: 48%;
-    width: 50%;
+    margin-left: 46%;
+    width: 53%;
 }
 
 .page-tagline{
@@ -331,9 +335,17 @@ button:hover{
 
 
 }
+.big-text{
+    color: #626a73 !important;
+    line-height: 35px !important;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+
+}
 
 .text-2{
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 25px !important;
     font-size: 15px;
     font-family:"Lato",Helvetica,Arial,sans-serif !important;
@@ -378,6 +390,27 @@ button:hover{
     padding: 0;
 }
 
+@media(max-width:1222px){
+    .front-page-title{
+        font-size: 36px;
+        letter-spacing: 2.57px;
+    }
+    .page{
+        margin-left: 50%;
+        width: 49%;
+    }
+}
+@media(max-width:1133px){
+    .front-page-title{
+        font-size:42px;
+        letter-spacing: 3px;
+    }
+    .page{
+        margin-left: 60%;
+        width: 38%;
+    }
+}
+
 @media(min-width: 992px){
     #home .container{
         padding: 0;
@@ -388,7 +421,7 @@ button:hover{
 
 @media(max-width:991px) {
     .page{
-        margin-left: 60%;
+        margin-left: 62%;
         width: 35%;
     }
     .front-page-title{
@@ -401,9 +434,9 @@ button:hover{
         width: 80%;
     }
 }
-@media(max-width:800px) {
+@media(max-width:895px) {
     #home{
-        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(./images/homepage_background.png);
+        background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(./images/homepage_background.png);
         background-repeat: no-repeat;
         height: 550px;
         -webkit-background-size: cover;
@@ -413,15 +446,26 @@ button:hover{
         padding: 0;
     }
     .page{
-        margin-left: 15%;
-        margin-right: 15%;
-        width: 60%;
+        margin-left: 20%;
+        margin-right: 10%;
+        width: 70%;
     }
 }
-@media(max-width:767px) {
+@media(max-width:793px) {
+    .page{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+}
+@media(max-width:700px) {
     .front-page-title{
         font-size: 30px;
         letter-spacing: 2.14px;
+    }
+    .top-sub{
+        font-size:16px !important;
+        letter-spacing: 2.667px;
     }
 }
 @media(max-width:580px) {
@@ -437,7 +481,7 @@ button:hover{
 }
 
 #metal {
-    background: linear-gradient( rgba(0,0,0, 0), rgba(0,0,0, 0) ), url(./images/astro.png);
+    background: linear-gradient( rgba(0,0,0, 0), rgba(0,0,0, 0) ), url(./images/caltech-background.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -972,6 +1016,7 @@ blockquote{
 
 
 /*****************SUB PAGES***************/
+
 .portfolio-modal .modal-content {
     padding: 75px 0;
     min-height: 100%;
@@ -980,6 +1025,9 @@ blockquote{
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
+
+
 
 
 
@@ -1170,7 +1218,7 @@ ul {
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
@@ -1178,7 +1226,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
@@ -1186,7 +1234,7 @@ input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholde
 }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
@@ -1194,7 +1242,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 }
 
 input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
@@ -1202,7 +1250,7 @@ input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
 }
 
 input::placeholder, textarea::placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
@@ -1210,7 +1258,7 @@ input::placeholder, textarea::placeholder {
 }
 
 input:focus::placeholder, textarea::focus:placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
@@ -1218,7 +1266,7 @@ input:focus::placeholder, textarea::focus:placeholder {
 }
 
 input::-ms-placeholder, textarea::-ms-placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
@@ -1226,7 +1274,7 @@ input::-ms-placeholder, textarea::-ms-placeholder {
 }
 
 input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
@@ -1236,21 +1284,21 @@ input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
 /* on hover placeholder */
 
 input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
 }
 
 input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
 }
 
 input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
@@ -1261,28 +1309,28 @@ input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
 }
 
 input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
 }
 
 input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
-    color: #7b8590 !important;
+    color: #626a73 !important;
     line-height: 28px !important;
     font-weight: 300;
     letter-spacing: 1px;
@@ -1436,17 +1484,36 @@ div.clients span {
 .logo-section{
     height: 150px;
 }
-
-@media(max-width:850px) {
-    .logo-section{
-        height: 200px;
-    }
-    div.clients {
-        width: 50%;
-        height: 100px;
+.gravity{
+    padding-left:110px;
+    padding-right:110px;
+}
+.ligo-box{
+    height: 100%;
+    background-color: rgba(244, 250, 253,.8);
+    margin-left:50%;
+    box-shadow: 0 10px 50px 1px rgba(0,0,0,.4);
+}
+@media(max-width:1000px) {
+    .gravity{
+        padding-left:90px;
+        padding-right:90px;
     }
 }
-@media(max-width:767px) {
+
+@media(max-width:850px) {
+    .ligo-box{
+        background-color: rgba(244, 250, 253,.8);
+        margin-left:0;
+        box-shadow: 0 0px 70px 1px rgba(0,0,0,0);
+    }
+    .gravity{
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+}
+@media(max-width:900px) {
     .haas-logo{
         width: 67.86px;
     }
@@ -1463,13 +1530,24 @@ div.clients span {
     }
 
 }
-@media(max-width:700px) {
+@media(max-width:600px) {
+    .logo-section{
+        height: 200px;
+    }
 
     div.clients {
         width: 50%;
         height: 100px;
     }
 }
+
+.location{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom:10px;
+}
+
 
 
 

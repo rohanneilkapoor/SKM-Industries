@@ -43,6 +43,7 @@ jQuery(document).ready(function($) {
     }).trigger('resize');
 
 
+
 });
 
 
@@ -93,11 +94,11 @@ $(function(){
 (function($) {
     $(document)
         .on( 'show.bs.modal', '.modal', function() {
-            $("html").removeClass( 'fixed-html' );
+            $("html").addClass( 'fixed-html-y' );
         })
         .on( 'hidden.bs.modal', '.modal', function() {
 
-            $("html").addClass( 'fixed-html' );
+            $("html").removeClass( 'fixed-html-y' );
 
         });
 
