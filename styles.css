@@ -481,23 +481,19 @@ button:hover{
 }
 
 #metal {
+    background: linear-gradient( rgba(0,0,0, 0), rgba(0,0,0, 0) ), url(./images/caltech-background.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     padding: 0;
-    height: 300px;
-}
-@media(max-width:900px) {
-    #metal {
-        height: 400px;
-    }
-}
-@media(max-width:767px) {
-    #metal {
-        height: 250px;
-    }
+    height: 400px;
+
+
+
+
+
 }
 
 
@@ -1489,35 +1485,43 @@ div.clients span {
     height: 150px;
 }
 .gravity{
-    padding-left:20%;
-    padding-right:20%;
-    text-align: center;
-    color: white !important;
-    font-size: 20px;
-    letter-spacing: 1.25px;
-    line-height: 35px;
-    font-weight: 300;
+    padding-left:110px;
+    padding-right:110px;
 }
 .ligo-box{
-    height: 100%;
-    background-color: #333;
+    background-color: #f4fafd;
+    box-shadow: 0 10px 50px 1px rgba(0,0,0,.3);
 }
-@media(max-width:1000px) {
+.caltech{
+    display: inline;
+}
+.caltech-small{
+    display: none;
+}
+@media(max-width:1200px) {
     .gravity{
-
+        padding-left:50px;
+        padding-right:50px;
     }
 }
-
-@media(max-width:767px) {
+@media(max-width:991px) {
+    .caltech{
+        display: none;
+    }
+    .caltech-small{
+        display: block;
+    }
     .ligo-box{
-
+        padding-top: 60px;
+        padding-bottom: 60px;
+        height: 100%;
+        box-shadow: none;
     }
+}
+@media(max-width:850px) {
     .gravity{
-        padding-left:5%;
-        padding-right:5%;
-        font-size: 16px;
-        letter-spacing: 1px;
-        line-height: 28px;
+        padding-left:0px;
+        padding-right:0px;
     }
 
 }
