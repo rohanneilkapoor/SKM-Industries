@@ -1452,7 +1452,7 @@ div.clients {
     vertical-align: middle;
     text-align: center;
     height: 150px;
-    width: 33.3333%;
+    width: 25%;
     -webkit-transition: .5s ease 0s;
     transition: .5s ease 0s;
     margin: 0;
@@ -1544,11 +1544,11 @@ div.clients span {
 }
 @media(max-width:600px) {
     .logo-section{
-        height: 300px;
+        height: 200px;
     }
 
     div.clients {
-        width: 100%;
+        width: 50%;
         height: 100px;
     }
 }
